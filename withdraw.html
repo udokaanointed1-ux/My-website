@@ -1,0 +1,63 @@
+<!doctype html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" href="withdraw.css">
+
+</head>
+<body>
+  <script src="withdraw.js"></script>
+<div class="intro"><h1>Welcome to HiAce Mining</h1></div>
+
+<div class="info">
+  <h2>Wallet balance: </h2>
+  
+<h3 id="amount"> <strong> XXXXX</strong></h3>
+
+ <button id="ppp" class="open"onclick="toggleShowBal()">👁️</button>
+</div>
+ <div class="withdrawOption" >  
+ <a href ="/deposit.html">  <button id="deposit">Deposit</button> </a>
+ <button onclick="withdrawal()" id="withdraw">Withdraw</button>
+
+ </div>
+  <span style="color:red">Note : Only palmpay and Opay is available for withdrawal</span>
+<p><p></p><p></p><p></p><p></p>
+  <br>
+  <span id="text">
+  <div class="bank">
+    
+  Beneficiary Name: <textarea height="20%"></textarea> 🏦
+    <br><br>
+    Bank Name: <select id="chooses">
+      <option selected disabled>Bank</option>
+      <option>Opay</option>
+      <option>Palmpay</option>
+
+    </select> 
+    <br><br>
+
+    Account Number: <input type="number" id="Number"> 💰
+    <br>
+    <br>
+    Withdraw Amount : <select id="choose"> 
+      <option selected disabled>Amount</option>
+      <option>10000</option>
+      <option>20000</option>
+      <option>30000</option>
+      <option>40000</option>
+      <option>50000</option>
+      <option>60000</option>
+    </select> 
+    <br>
+    <p id="mess"></p>
+  <span id="go"  ><button   onclick="cont()"  id="but">Withdraw</button></span>
+
+
+
+    
+  </div>
+  </span>
+
+</body>
+</html>

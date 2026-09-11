@@ -1,0 +1,82 @@
+body{background:#070b14 ;
+    color:white;
+     animation: gentleSway;
+    
+    }
+
+.info{background: #050505;
+      overflow: hidden;
+     font-size:25px;
+     color:whitesmoke;
+     border-radius:20px 20px 20px 20px;
+   border:-40px;
+      opacity: 100%;
+      
+      position: relative;
+     }
+h1{text-align: center;
+  border-radius: 10px 10px 10px 10px;
+   background: linear-gradient(white,green);
+   color:black;
+  }
+.withdrawOption{
+       display:flex;
+       justify-content: space-around;
+       border-radius: 5px 5px 5px 5px;
+       margin-top: 15px;
+       padding:0 40px 0 40px; 
+       font-size:40px;
+       font-weight: bold;
+  opacity: 66%;
+  
+}
+#deposit{font-size:25px;
+        font-weight:bold;
+        padding: 0 20px 0 20px;
+        border-radius:10px 10px 10px 10px;
+        background: var(--white);
+         color:white;
+        }
+#withdraw{font-size:30px;
+         font-weight: bold;
+         padding:0 20px 0 20px;
+         border-radius: 10px 10px 10px 10px;
+          background: var(--white);
+          color:white;
+         }
+.open{display:flex;
+     justify-content : flex-end;
+     margin-left:300px;
+    border-radius:10px 10px 10px 10px;
+      font-size:20px;
+      background:linear-gradient(white,black);
+     }
+h3{text-align: center;
+  font-family: italic;
+  font-weight: bold;
+   }
+
+p{display: flex;
+   justify-content: center;
+   color:black;}
+.navigation{display: flex;
+           justify-content: space-around;
+           
+           background-color: green;
+          position: absolute;
+           margin:400px 0 0 0;}
+#convert{
+  background:linear-gradient(white,black);
+}
+span{font-size: 20px;}
+#image{font-size: 200px;
+      display: flex;
+      justify-content: center;
+      }
+h3{text-align: center;
+  }
+#indi{display: flex;
+     justify-content: center;
+     text-align: center;
+     font-weight: bold;
+     }
