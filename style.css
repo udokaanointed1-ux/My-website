@@ -1,0 +1,32 @@
+
+h2{text-align: center;
+   font-size:40px;
+  }
+#text{font-size: 40px;
+     margin-top: 30px;
+     text-align: center;
+     }
+.container{background:#070b14;  }
+.details{text-align: center;}
+input{padding: 10px 10px 10px 10px;
+     background: transparent;
+     color:white;}
+#Login{padding:5px 5px 5px 5px;
+      width: 30%;
+      background-color:green;
+      color: white;
+      font-weight: bold;}
+span{text-align: center;}
+a{color:lightblue;}
+
+.container2{padding:0 60px 450px 60px;
+           background: linear-gradient( #070b14, darkgreen);
+            padding-right: 60px;
+            border-radius:50px 50px 0 0;
+           }
+
+
+
+    
+    body {background-color:black;
+         color:white;  }
