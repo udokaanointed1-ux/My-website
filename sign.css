@@ -1,0 +1,33 @@
+body { height: 100dvh;
+         color:white;
+      background-image: url(/IMG-20260811-WA0038.jpg);
+      background-position: center;
+      background-size: cover;
+      background-repeat: no-repeat;
+     }
+h2{
+  text-align: center;
+  font-size: 40px;
+  }
+h4{font-size:20px;
+   text-align: center;
+  }
+input{border: solid 3px black;
+     height: 40px;
+     text-align:center;
+    
+     }
+.details{text-align: center;}
+#dob{height:20px;}
+select{height: 40px;
+      border: solid 2px black;}
+.gender{
+  display:flex;
+  justify-items: left;
+}
+div{text-align: center;}
+button{height:40px;
+       padding:0 10px 0 10px;
+       font-size: 30px;
+       border-radius: 10px 10px 10px 10px;
+}

@@ -1,0 +1,21 @@
+h1{color:green;
+  text-align: center;
+  display:flex;
+  justify-content: center;}
+.info{display: flex;
+     justify-items: center;
+     padding: 50px 25px 50px 25px;
+     }
+#back{display: flex;
+      justify-content: center;
+      background-color: blue;
+      color:white;
+  font-size: 35px;
+      font-weight: bold;
+      border-radius: 25px 25px 25px 25px;
+}
+span{
+  display: flex;
+  justify-content: center;
+}
+#p{background-color: cyan;}

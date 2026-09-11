@@ -1,0 +1,30 @@
+.deposit{
+  text-align: center;
+  background-color: lightcoral;
+  border-radius: 10px 10px 10px 10px;
+}
+body{background-color: lightseagreen;
+    }
+.top{color: red;
+    background-color: mintcream;
+    text-align: center;
+    border-radius: 10px 10px 10px 10px;}
+.wallet{
+  padding: 10px 10px 70px 10px;
+  background-color: lightslategray;
+  border-radius: 10px 10px 10px 10px;
+}
+h2{text-align: center;}
+h3{color:blue;}
+button{background-color:blue;
+      color: white;
+      font-weight: bold;
+    
+      text-align: center;
+       border-radius: 7px 7px 7px 7px;
+       font-size: 20px;
+      
+      }
+span{
+  display: flex;
+  justify-content: center;}
